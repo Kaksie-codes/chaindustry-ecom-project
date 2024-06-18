@@ -51,4 +51,6 @@ li
     width: min(90%, 1400px);
     margin-inline: auto;
   }
-  
+.display-none{
+  display: none;
+}
