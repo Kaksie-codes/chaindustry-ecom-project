@@ -49,7 +49,7 @@ export default function handleNavigation () {
             {
              
                 product.category.forEach((categories)=>{
-                    console.log(categories)
+                    // console.log(categories)
                     if(categoryCount[categories])
                         {
                             categoryCount[categories]++
@@ -65,7 +65,7 @@ export default function handleNavigation () {
             categoriesHolder.innerHTML = '';
             for(const categoryKeys in categoryCount)
                 {
-                   console.log(categoryKeys)
+                //    console.log(categoryKeys)
                     categoriesHolder.innerHTML += 
                     `
                     <div class="navigation-section-categories-item flex flex-align">
