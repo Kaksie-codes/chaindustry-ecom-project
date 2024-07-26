@@ -237,7 +237,7 @@ button.categories-btn{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
     .navigation-section-greenbar{
         /* padding: var(--padding);         */
         height: 40px; 
